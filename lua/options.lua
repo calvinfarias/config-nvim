@@ -1,5 +1,7 @@
 local opt = vim.opt
 
+opt.signcolumn="yes:1"
+
 -- Incremental search
 opt.incsearch = true
 opt.hlsearch = true

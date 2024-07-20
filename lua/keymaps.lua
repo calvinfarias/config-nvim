@@ -18,7 +18,7 @@ keymap("n", "<leader>w", ":w!<CR>", opts)
 -- navigate buffers
 keymap("n", "<tab>", ":bnext<CR>", opts) 		-- Next Tab
 keymap("n", "<s-tab>", ":bprevious<CR>", opts) 		-- Previous tab
-keymap("n", "<leader>h", ":nohlsearch<CR>", opts) 	-- No highlight search
+keymap("n", "<leader><CR>", ":nohlsearch<CR>", opts) 	-- No highlight search
 
 -- navigation
 keymap("n", "<C-j>", "<C-y>", opts)
